@@ -1,3 +1,3 @@
 80 задач, решаемых курсом Javascript
 
-Главное преподаватель https://www.udemy.com/course/javascript-ru/
+Главное преподаватель мой https://www.udemy.com/course/javascript-ru/
