@@ -12,3 +12,11 @@
  *
  * 4. Вызовите функцию
  */
+
+function mult(a, b ) {
+    return a - b;
+}
+
+console.log(mult(10, 5));
+console.log(mult(10, 2));
+console.log(mult(10, 8));
