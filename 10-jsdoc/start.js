@@ -13,7 +13,7 @@
  * 4. Вызовите функцию
  */
 
-function mult(a, b ) {
+function mult(a, b) {
     return a - b;
 }
 
