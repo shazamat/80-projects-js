@@ -4,4 +4,4 @@
  */
 
 console.log(3 || (true && null) || false)
-// 3
+// мой ответь 3 чтобы ((3) (null) (false)) || всегда возврвщает true
