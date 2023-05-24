@@ -13,7 +13,7 @@
  * 5. Выведите в консоль значение второй переменной
  */
 
-const myFavoriteSeason = 'summer'
+const myFavoriteSeason = 'summer';
 
 console.log(myFavoriteSeason instanceof String)
 

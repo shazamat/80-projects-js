@@ -13,3 +13,13 @@
  * 5. Выведите в консоль значение второй переменной
  */
 
+const myLaptop = 'Dell Vostro';
+
+console.log(myLaptop instanceof String);
+
+console.log(typeof myLaptop);
+
+const myLaptopUpdate = myLaptop.toUpperCase();
+
+console.log(myLaptopUpdate);
+
