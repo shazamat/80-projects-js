@@ -16,7 +16,7 @@ const postsJSON = [
   '{"postId":2351,"commentsQuantity":8}'
 ]
 
-const convertJsonToObject = postsJSON.map(JSON.parse)
+const convertJsonToObject = postsJSON.map(JSON.parse);
 
 console.log(convertJsonToObject);
 
