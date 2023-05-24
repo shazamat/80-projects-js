@@ -13,3 +13,5 @@ const myObject = {
   key4: null,
   key10: NaN,
 }
+
+
