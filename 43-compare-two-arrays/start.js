@@ -23,9 +23,8 @@ const areArraysEqual = (firstArray, secondArray) => {
 const a = [1, 2, 3]
 const b = [1, 2, 3]
 
-console.log(a === b) /* false (Почему?) --- Javascriptdagi hamma narsa obyekt  massiv ham obyekt
-                                        bir xil massiv bo'lsa ham ular xotiraning xar xil joyida joylashgan bo'ladi 
-                                        
+console.log(a === b) /* false (Почему?) --- Javascriptdagi hamma narsa obyekt  massiv ham obyekt 
+bir xil massiv bo'lsa ham ular xotiraning xar xil joyida joylashgan bo'ladi           
 */
 const c = [2, 1, 3]
 const d = [1, 2, 3, 4]
