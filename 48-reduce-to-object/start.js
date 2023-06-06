@@ -34,6 +34,9 @@ const inputProducts = [
   },
 ]
 
+function quantitiesByCategories (products) {
+  products.reduce()
+}
 
 
 
