@@ -19,3 +19,12 @@ function myFn2(a) {
 }
 
 myFn1()
+
+/**
+ * birinchi a ning qiymati undefined qaytaradi,
+ * ikkinchi b ning qiymatini globaldan olib 2 qaytaradi,
+ * uchinchi c ning qiymatini scopening ichida bor 5 qaytaradi,
+ * to'rtinchi d ning qiymatini yana globaldan oladi scopening ichida yoq bo'lgani uchun,
+ * 
+ * yuqori ustunlik scopening ichida boladi agarda ichidan topmasa globaldan qarab ko'radi;
+ */
