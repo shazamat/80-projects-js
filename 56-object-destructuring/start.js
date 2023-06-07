@@ -5,16 +5,30 @@
  * 2. Объект, возвращаемый функцией "personInfo", должен содержать только сокращенные имена свойств
  */
 
-const personInfo = (/* parameters */) => {
-  /* return ... */
+const personInfo = (person) => {
+  const {
+    name,
+    age: personAge,
+    location: { country: origin, city: homeCity },
+    friendsQty = 0,
+    createdAtYear = new Date().getFullYear(),
+  } = person;
+  return {
+    name,
+    personAge,
+    origin,
+    homeCity,
+    friendsQty,
+    createdAtYear,
+  }
 }
 
 const person = {
-  name: 'Alice',
-  age: 19,
+  name: 'Azamat',
+  age: 20,
   location: {
-    country: 'England',
-    city: 'London',
+    country: 'Uzbekiston',
+    city: 'Tashkent',
   },
 }
 
