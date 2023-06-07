@@ -26,5 +26,5 @@ myFn1()
  * uchinchi c ning qiymatini scopening ichida bor 5 qaytaradi,
  * to'rtinchi d ning qiymatini yana globaldan oladi scopening ichida yoq bo'lgani uchun,
  * 
- * yuqori ustunlik scopening ichida boladi agarda ichidan topmasa globaldan qarab ko'radi;
+ * yuqori ustunlik scopening ichida bo'ladi agarda ichidan topmasa globaldan qarab ko'radi;
  */
