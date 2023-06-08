@@ -6,15 +6,14 @@
  */
 
 function square(a) {
-
   // Birinchi metod
-  // if (a === undefined) {
+  // if (arguments.length === 0) {
   //   throw new Error('Функция "square" не может быть вызвана без аргумента');
   // }
 
 
   // Ikkinchi metod
-  if (arguments.length === 0) {
+  if (a === undefined) {
     throw new Error('Функция "square" не может быть вызвана без аргумента');
   }
 
