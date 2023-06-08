@@ -12,8 +12,6 @@ const objectWithNumbers = {
   z: 3,
 }
 
-// Создайте функцию здесь
-
 // Regular function
 // function mult({x, y, z}) {
 //   return x * y * z;
