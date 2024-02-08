@@ -12,7 +12,7 @@
  */
 
 const helloWorld = () => {
-    return 'Привет, мир!';
+    return 'Привет, мир!'
 }
 
 console.log(helloWorld());
