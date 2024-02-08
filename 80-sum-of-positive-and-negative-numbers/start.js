@@ -12,23 +12,20 @@
 
 const nums = [10, -12, 30, -1, -8, 0, 14, -33, 20]
 
-function sumPositiveNegative(numbers) {
-    return numbers.reduce(
-        (sums, num) => {
-          if (num > 0) {
-            return {
-              ...sums,
-              positive: sums.positive + num,
-            }
-          }
-    
-          return {
-            ...sums,
-            negative: sums.negative + num,
-          }
-        },
-        { positive: 0, negative: 0 }
-      )
+let positive = 0;
+let negative = 0;
+function sumPositiveNegative(array) {
+    array.forEach((el) => {
+        if (el >= 0) {
+            return positive = positive + el;
+        }
+        negative = negative + el;
+    });
+
+    return {
+        positive: positive,
+        negative: negative
+    }
 }
 
 const result = sumPositiveNegative(nums)
