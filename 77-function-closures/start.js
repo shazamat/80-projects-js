@@ -17,19 +17,15 @@
 const createGreeting = () => {
     let greetingString = 'Hey, this is';
 
-    function greet(name) {
-        return `${greetingString} ${name}`
-    }
+    const greet = name => `${greetingString} ${name}`;
 
-    function changeGreeting(newGreeting) {
-        greetingString = newGreeting
-    }
+    const changeGreeting = changeString => greetingString = changeString;
 
     return {
         greet,
         changeGreeting
     }
-}
+};
 
 
 const greeting1 = createGreeting()
