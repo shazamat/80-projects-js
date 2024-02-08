@@ -14,5 +14,3 @@ const myNumber2 = 3
 const remainder = myNumber1 % myNumber2;
 
 console.log(remainder);
-
-console.log();

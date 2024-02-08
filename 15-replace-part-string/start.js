@@ -7,7 +7,7 @@
  * 3. Выведите значение второй переменной в консоль
  */
 
-const goodEvening = 'Good Morning';
+const goodEvening = 'Good  Morning';
 
 const changeEvening = goodEvening.replace('Morning', 'Evening')
 

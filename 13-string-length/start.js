@@ -5,6 +5,6 @@
  * 2. Виведите в консоль длину этой строки
  */
 
-const name = 'Azamat';
+const name = 'Azamat'
 
-console.log(name.length);
+console.log(name.length)

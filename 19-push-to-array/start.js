@@ -8,5 +8,7 @@
  */
 
 let myArray = [1, 50, 40, 4, 30];
+
 myArray.push(100);
+
 console.log(myArray);
