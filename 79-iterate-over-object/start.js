@@ -16,14 +16,14 @@ const objectWithNumbers = {
   d: 12,
 }
 
-function sumObjectValues(numbers) {
-  let n = 0;
-  Object.keys(numbers).forEach((key) => {
-    if (typeof numbers[key] === 'number') {
-      n += numbers[key]
-    }
-  })
-  return n;
+function sumObjectValues(objectNumbers) {
+    let sum = 0;
+    Object.keys(objectNumbers).forEach((el) => {
+      if (typeof objectNumbers[el] === 'number') {
+        sum += objectNumbers[el];
+      };
+    })
+  return sum;
 }
 
 const result = sumObjectValues(objectWithNumbers)
