@@ -16,10 +16,13 @@ const postsJSON = [
   '{"postId":2351,"commentsQuantity":8}'
 ]
 
-const convertJsonToObject = postsJSON.map(JSON.parse);
+const postJS = postsJSON.map((post) => JSON.parse(post));
 
-console.log(convertJsonToObject);
+console.log(postJS);
 
-console.log(convertJsonToObject[1].postId);
+console.log(postJS[1].postId);
 
-console.log(convertJsonToObject[convertJsonToObject.length - 1].commentsQuantity);
+console.log(postJS[postJS.length - 1].commentsQuantity);
+
+
+
