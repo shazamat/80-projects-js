@@ -18,6 +18,6 @@ let i = 1;
 const message = setInterval(() => {
     console.log('Сообщение номер ' + i);
     i = i + 1;
-}, 2000) 
+}, 2000)
 
 setTimeout(() => clearInterval(message), 11000)
