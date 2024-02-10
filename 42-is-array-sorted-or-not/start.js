@@ -17,7 +17,7 @@ const c = [150, 132, 80, 40]
 const d = [15, 26, 10, 23, 85]
 
 
-const arraySortInfo = inputArray => {
+function arraySortInfo (inputArray) {
     if (inputArray.some((element) => typeof element !== 'number')) {
         return 'Некоторые элементы не являются числами';
     }
