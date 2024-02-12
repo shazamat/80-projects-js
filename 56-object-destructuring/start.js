@@ -13,35 +13,50 @@ const personInfo = (person) => {
     friendsQty = 0,
     createdAtYear = new Date().getFullYear(),
   } = person;
-  return {
-    name,
-    personAge,
-    origin,
-    homeCity,
-    friendsQty,
-    createdAtYear,
-  }
+   return {
+     name,
+     personAge,
+     origin,
+     homeCity,
+     friendsQty,
+     createdAtYear,
+   }
 }
 
 const person = {
-  name: 'Azamat',
-  age: 20,
-  location: {
-    country: 'Uzbekiston',
-    city: 'Tashkent',
-  },
-}
+   name: 'Azamat',
+   age: 20,
+   location: {
+     country: 'Uzbekiston',
+     city: 'Tashkent',
+   },
+ }
 
-const result = personInfo(person)
+ const result = personInfo(person)
 
-console.log(result)
-/*
-{
-  name: "Alice",
-  personAge: 19,
-  origin: "England",
-  homeCity: "London",
-  friendsQty: 0,
-  createdAtYear: *current year*
+ console.log(result)
+
+
+/**
+ {
+   name: "Alice",
+   personAge: 19,
+   origin: "England",
+   homeCity: "London",
+    friendsQty: 0,
+*  createdAtYear: *current year*
 }
 */
+
+
+
+
+
+
+
+
+
+
+
+
+
